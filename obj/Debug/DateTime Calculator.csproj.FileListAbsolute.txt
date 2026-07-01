@@ -1,0 +1,13 @@
+D:\Self-Study\C#\Projects (Windows Forms)\DateTime Calculator\bin\Debug\DateTime Calculator.exe.config
+D:\Self-Study\C#\Projects (Windows Forms)\DateTime Calculator\bin\Debug\DateTime Calculator.exe
+D:\Self-Study\C#\Projects (Windows Forms)\DateTime Calculator\bin\Debug\DateTime Calculator.pdb
+D:\Self-Study\C#\Projects (Windows Forms)\DateTime Calculator\obj\Debug\DateTime Calculator.csproj.AssemblyReference.cache
+D:\Self-Study\C#\Projects (Windows Forms)\DateTime Calculator\obj\Debug\DateTime_Calculator.Form1.resources
+D:\Self-Study\C#\Projects (Windows Forms)\DateTime Calculator\obj\Debug\DateTime_Calculator.Properties.Resources.resources
+D:\Self-Study\C#\Projects (Windows Forms)\DateTime Calculator\obj\Debug\DateTime Calculator.csproj.GenerateResource.cache
+D:\Self-Study\C#\Projects (Windows Forms)\DateTime Calculator\obj\Debug\DateTime Calculator.csproj.CoreCompileInputs.cache
+D:\Self-Study\C#\Projects (Windows Forms)\DateTime Calculator\obj\Debug\DateTime Calculator.exe
+D:\Self-Study\C#\Projects (Windows Forms)\DateTime Calculator\obj\Debug\DateTime Calculator.pdb
+D:\Self-Study\C#\Projects (Windows Forms)\DateTime Calculator\bin\Debug\DateFromTimeSpan.dll
+D:\Self-Study\C#\Projects (Windows Forms)\DateTime Calculator\bin\Debug\DateFromTimeSpan.pdb
+D:\Self-Study\C#\Projects (Windows Forms)\DateTime Calculator\obj\Debug\DateTime.72FDD5AE.Up2Date

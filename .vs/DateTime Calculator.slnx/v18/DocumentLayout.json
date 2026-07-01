@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Self-Study\\C#\\Projects (Windows Forms)\\DateTime Calculator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{25668889-A3FC-4431-AA35-839EEA05F28D}|DateTime Calculator.csproj|d:\\self-study\\c#\\projects (windows forms)\\datetime calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{25668889-A3FC-4431-AA35-839EEA05F28D}|DateTime Calculator.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25668889-A3FC-4431-AA35-839EEA05F28D}|DateTime Calculator.csproj|D:\\Self-Study\\C#\\Projects (Windows Forms)\\DateTime Calculator\\clstabpage2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25668889-A3FC-4431-AA35-839EEA05F28D}|DateTime Calculator.csproj|solutionrelative:clstabpage2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25668889-A3FC-4431-AA35-839EEA05F28D}|DateTime Calculator.csproj|D:\\Self-Study\\C#\\Projects (Windows Forms)\\DateTime Calculator\\datetimecore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25668889-A3FC-4431-AA35-839EEA05F28D}|DateTime Calculator.csproj|solutionrelative:datetimecore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DateTimeCore.cs",
+              "DocumentMoniker": "D:\\Self-Study\\C#\\Projects (Windows Forms)\\DateTime Calculator\\DateTimeCore.cs",
+              "RelativeDocumentMoniker": "DateTimeCore.cs",
+              "ToolTip": "D:\\Self-Study\\C#\\Projects (Windows Forms)\\DateTime Calculator\\DateTimeCore.cs",
+              "RelativeToolTip": "DateTimeCore.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAADgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T16:08:15.329Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "clsTabPage2.cs",
+              "DocumentMoniker": "D:\\Self-Study\\C#\\Projects (Windows Forms)\\DateTime Calculator\\clsTabPage2.cs",
+              "RelativeDocumentMoniker": "clsTabPage2.cs",
+              "ToolTip": "D:\\Self-Study\\C#\\Projects (Windows Forms)\\DateTime Calculator\\clsTabPage2.cs",
+              "RelativeToolTip": "clsTabPage2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T20:22:21.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\Self-Study\\C#\\Projects (Windows Forms)\\DateTime Calculator\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\Self-Study\\C#\\Projects (Windows Forms)\\DateTime Calculator\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T15:58:59.144Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
