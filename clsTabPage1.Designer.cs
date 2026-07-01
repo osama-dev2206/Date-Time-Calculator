@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAllTabPages));
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
             this.btnStartCalcDiffInTimes = new System.Windows.Forms.Button();
             this.labDiffBetweenTimesSecs = new System.Windows.Forms.Label();
             this.labDiffBetweenTimesMin = new System.Windows.Forms.Label();
@@ -71,8 +73,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.tabPageOne = new System.Windows.Forms.TabControl();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
             this.tabPage3.SuspendLayout();
             this.tabPageTwo.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -97,10 +97,28 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 26);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(570, 434);
+            this.tabPage3.Size = new System.Drawing.Size(540, 423);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Diff Between 2 Times";
             this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(484, 131);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(37, 17);
+            this.label20.TabIndex = 12;
+            this.label20.Text = "Start";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(484, 61);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(31, 17);
+            this.label19.TabIndex = 11;
+            this.label19.Text = "End";
             // 
             // btnStartCalcDiffInTimes
             // 
@@ -108,9 +126,9 @@
             this.btnStartCalcDiffInTimes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.btnStartCalcDiffInTimes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnStartCalcDiffInTimes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnStartCalcDiffInTimes.Location = new System.Drawing.Point(220, 366);
+            this.btnStartCalcDiffInTimes.Location = new System.Drawing.Point(203, 352);
             this.btnStartCalcDiffInTimes.Name = "btnStartCalcDiffInTimes";
-            this.btnStartCalcDiffInTimes.Size = new System.Drawing.Size(127, 52);
+            this.btnStartCalcDiffInTimes.Size = new System.Drawing.Size(127, 48);
             this.btnStartCalcDiffInTimes.TabIndex = 10;
             this.btnStartCalcDiffInTimes.Text = "Get Details";
             this.btnStartCalcDiffInTimes.UseVisualStyleBackColor = false;
@@ -236,7 +254,7 @@
             this.tabPageTwo.Location = new System.Drawing.Point(4, 26);
             this.tabPageTwo.Name = "tabPageTwo";
             this.tabPageTwo.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageTwo.Size = new System.Drawing.Size(570, 434);
+            this.tabPageTwo.Size = new System.Drawing.Size(540, 423);
             this.tabPageTwo.TabIndex = 1;
             this.tabPageTwo.Text = "Diff Between 2 Dates";
             this.tabPageTwo.UseVisualStyleBackColor = true;
@@ -248,7 +266,7 @@
             this.btnGetDetailsPag2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.btnGetDetailsPag2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btnGetDetailsPag2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGetDetailsPag2.Location = new System.Drawing.Point(219, 352);
+            this.btnGetDetailsPag2.Location = new System.Drawing.Point(201, 352);
             this.btnGetDetailsPag2.Name = "btnGetDetailsPag2";
             this.btnGetDetailsPag2.Size = new System.Drawing.Size(123, 44);
             this.btnGetDetailsPag2.TabIndex = 12;
@@ -380,7 +398,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 26);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(570, 434);
+            this.tabPage1.Size = new System.Drawing.Size(540, 423);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Age Calc";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -470,9 +488,9 @@
             this.btnGetBirthDetails.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.btnGetBirthDetails.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btnGetBirthDetails.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGetBirthDetails.Location = new System.Drawing.Point(201, 342);
+            this.btnGetBirthDetails.Location = new System.Drawing.Point(199, 360);
             this.btnGetBirthDetails.Name = "btnGetBirthDetails";
-            this.btnGetBirthDetails.Size = new System.Drawing.Size(123, 44);
+            this.btnGetBirthDetails.Size = new System.Drawing.Size(129, 41);
             this.btnGetBirthDetails.TabIndex = 7;
             this.btnGetBirthDetails.Text = "Get Details";
             this.btnGetBirthDetails.UseVisualStyleBackColor = false;
@@ -552,33 +570,15 @@
             this.tabPageOne.Multiline = true;
             this.tabPageOne.Name = "tabPageOne";
             this.tabPageOne.SelectedIndex = 0;
-            this.tabPageOne.Size = new System.Drawing.Size(578, 464);
+            this.tabPageOne.Size = new System.Drawing.Size(548, 453);
             this.tabPageOne.TabIndex = 0;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(484, 61);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(31, 17);
-            this.label19.TabIndex = 11;
-            this.label19.Text = "End";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(484, 131);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(37, 17);
-            this.label20.TabIndex = 12;
-            this.label20.Text = "Start";
             // 
             // frmAllTabPages
             // 
             this.AcceptButton = this.btnGetBirthDetails;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(576, 478);
+            this.ClientSize = new System.Drawing.Size(553, 465);
             this.Controls.Add(this.tabPageOne);
             this.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
