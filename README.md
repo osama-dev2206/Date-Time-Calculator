@@ -432,8 +432,14 @@ internal struct stTime
 The application features a clean, intuitive tabbed interface with three main calculator tabs:
 
 - **Tab 1:** Age Calculator - Enter birth date and get detailed age breakdown
+  <img width="576" height="505" alt="image" src="https://github.com/user-attachments/assets/06a15a39-edc7-4f1c-82c0-e1881a0f12d6" />
+
 - **Tab 2:** Date Difference Calculator - Select two dates and calculate the difference
+  <img width="571" height="503" alt="image" src="https://github.com/user-attachments/assets/606cfa3e-c885-4192-9bb1-2e73074a74e9" />
+
 - **Tab 3:** Time Difference Calculator - Select two times and calculate the difference
+  <img width="568" height="509" alt="image" src="https://github.com/user-attachments/assets/11c5e81b-e0d6-4e84-aaa1-a5cdda8d4a39" />
+
 
 ---
 
