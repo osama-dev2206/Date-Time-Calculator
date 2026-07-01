@@ -11,10 +11,10 @@ using System.Windows.Forms;
 
 namespace DateTime_Calculator
 {
-                                             // Tab page 1 persentation logic ///  
-    public partial class Form1 : Form 
+                                             // Tab page 1 prsentation logic ///  
+    public partial class frmAllTabPages : Form 
     {
-        public Form1()
+        public frmAllTabPages()
         {
             InitializeComponent();
         }
@@ -84,6 +84,9 @@ namespace DateTime_Calculator
             this.maskedTextBox1.Focus(); 
         }
 
+ 
+
     }
+
 
 }

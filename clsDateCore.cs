@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace DateTime_Calculator
 {
-    internal static class clsDateTimeCore
+    internal static partial class clsDateTimeCore
     {
     
        static public bool CheckDate(string Date ,out  DateTime  Res )
@@ -79,6 +79,9 @@ namespace DateTime_Calculator
         {
             return (d1<d2)? true : false;
         }
+
+
+
 
 
     }

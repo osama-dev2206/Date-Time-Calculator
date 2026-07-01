@@ -1,6 +1,6 @@
 ﻿namespace DateTime_Calculator
 {
-    partial class Form1
+    partial class frmAllTabPages
     {
         /// <summary>
         /// Required designer variable.
@@ -28,8 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAllTabPages));
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.btnStartCalcDiffInTimes = new System.Windows.Forms.Button();
+            this.labDiffBetweenTimesSecs = new System.Windows.Forms.Label();
+            this.labDiffBetweenTimesMin = new System.Windows.Forms.Label();
+            this.labDiffBetweenTimesHour = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.dtpTime2 = new System.Windows.Forms.DateTimePicker();
+            this.dtpTime1 = new System.Windows.Forms.DateTimePicker();
             this.tabPageTwo = new System.Windows.Forms.TabPage();
             this.btnGetDetailsPag2 = new System.Windows.Forms.Button();
             this.LabDiffInYears = new System.Windows.Forms.Label();
@@ -60,6 +71,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.tabPageOne = new System.Windows.Forms.TabControl();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.tabPage3.SuspendLayout();
             this.tabPageTwo.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPageOne.SuspendLayout();
@@ -67,6 +81,19 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.label20);
+            this.tabPage3.Controls.Add(this.label19);
+            this.tabPage3.Controls.Add(this.btnStartCalcDiffInTimes);
+            this.tabPage3.Controls.Add(this.labDiffBetweenTimesSecs);
+            this.tabPage3.Controls.Add(this.labDiffBetweenTimesMin);
+            this.tabPage3.Controls.Add(this.labDiffBetweenTimesHour);
+            this.tabPage3.Controls.Add(this.label18);
+            this.tabPage3.Controls.Add(this.label17);
+            this.tabPage3.Controls.Add(this.label16);
+            this.tabPage3.Controls.Add(this.label15);
+            this.tabPage3.Controls.Add(this.label14);
+            this.tabPage3.Controls.Add(this.dtpTime2);
+            this.tabPage3.Controls.Add(this.dtpTime1);
             this.tabPage3.Location = new System.Drawing.Point(4, 26);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
@@ -74,6 +101,124 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Diff Between 2 Times";
             this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // btnStartCalcDiffInTimes
+            // 
+            this.btnStartCalcDiffInTimes.BackColor = System.Drawing.Color.Silver;
+            this.btnStartCalcDiffInTimes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnStartCalcDiffInTimes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnStartCalcDiffInTimes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnStartCalcDiffInTimes.Location = new System.Drawing.Point(220, 366);
+            this.btnStartCalcDiffInTimes.Name = "btnStartCalcDiffInTimes";
+            this.btnStartCalcDiffInTimes.Size = new System.Drawing.Size(127, 52);
+            this.btnStartCalcDiffInTimes.TabIndex = 10;
+            this.btnStartCalcDiffInTimes.Text = "Get Details";
+            this.btnStartCalcDiffInTimes.UseVisualStyleBackColor = false;
+            this.btnStartCalcDiffInTimes.Click += new System.EventHandler(this.btnStartCalcDiffInTimes_Click);
+            // 
+            // labDiffBetweenTimesSecs
+            // 
+            this.labDiffBetweenTimesSecs.AutoSize = true;
+            this.labDiffBetweenTimesSecs.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labDiffBetweenTimesSecs.Location = new System.Drawing.Point(359, 296);
+            this.labDiffBetweenTimesSecs.Name = "labDiffBetweenTimesSecs";
+            this.labDiffBetweenTimesSecs.Size = new System.Drawing.Size(20, 23);
+            this.labDiffBetweenTimesSecs.TabIndex = 9;
+            this.labDiffBetweenTimesSecs.Text = "0";
+            // 
+            // labDiffBetweenTimesMin
+            // 
+            this.labDiffBetweenTimesMin.AutoSize = true;
+            this.labDiffBetweenTimesMin.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labDiffBetweenTimesMin.Location = new System.Drawing.Point(359, 260);
+            this.labDiffBetweenTimesMin.Name = "labDiffBetweenTimesMin";
+            this.labDiffBetweenTimesMin.Size = new System.Drawing.Size(20, 23);
+            this.labDiffBetweenTimesMin.TabIndex = 8;
+            this.labDiffBetweenTimesMin.Text = "0";
+            // 
+            // labDiffBetweenTimesHour
+            // 
+            this.labDiffBetweenTimesHour.AutoSize = true;
+            this.labDiffBetweenTimesHour.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labDiffBetweenTimesHour.Location = new System.Drawing.Point(359, 224);
+            this.labDiffBetweenTimesHour.Name = "labDiffBetweenTimesHour";
+            this.labDiffBetweenTimesHour.Size = new System.Drawing.Size(20, 23);
+            this.labDiffBetweenTimesHour.TabIndex = 7;
+            this.labDiffBetweenTimesHour.Text = "0";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(23, 293);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(311, 28);
+            this.label18.TabIndex = 6;
+            this.label18.Text = "Diff Between 2  Times in Secs : ";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(20, 257);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(310, 28);
+            this.label17.TabIndex = 5;
+            this.label17.Text = "Diff Between 2 Times in Mins : ";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(21, 221);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(314, 28);
+            this.label16.TabIndex = 4;
+            this.label16.Text = "Diff Between 2 Times In Hours :";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(17, 120);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(106, 38);
+            this.label15.TabIndex = 3;
+            this.label15.Text = "Time 2";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(17, 50);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(106, 38);
+            this.label14.TabIndex = 2;
+            this.label14.Text = "Time 1";
+            // 
+            // dtpTime2
+            // 
+            this.dtpTime2.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpTime2.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.dtpTime2.Location = new System.Drawing.Point(153, 114);
+            this.dtpTime2.Name = "dtpTime2";
+            this.dtpTime2.ShowUpDown = true;
+            this.dtpTime2.Size = new System.Drawing.Size(325, 51);
+            this.dtpTime2.TabIndex = 1;
+            this.dtpTime2.Tag = " time2";
+            this.dtpTime2.ValueChanged += new System.EventHandler(this.dateTimePicker4_ValueChanged);
+            // 
+            // dtpTime1
+            // 
+            this.dtpTime1.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpTime1.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.dtpTime1.Location = new System.Drawing.Point(153, 44);
+            this.dtpTime1.Name = "dtpTime1";
+            this.dtpTime1.ShowUpDown = true;
+            this.dtpTime1.Size = new System.Drawing.Size(325, 51);
+            this.dtpTime1.TabIndex = 0;
+            this.dtpTime1.Tag = " time1";
+            this.dtpTime1.ValueChanged += new System.EventHandler(this.dTimePicker_ValueChanged);
             // 
             // tabPageTwo
             // 
@@ -410,7 +555,25 @@
             this.tabPageOne.Size = new System.Drawing.Size(578, 464);
             this.tabPageOne.TabIndex = 0;
             // 
-            // Form1
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(484, 61);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(31, 17);
+            this.label19.TabIndex = 11;
+            this.label19.Text = "End";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(484, 131);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(37, 17);
+            this.label20.TabIndex = 12;
+            this.label20.Text = "Start";
+            // 
+            // frmAllTabPages
             // 
             this.AcceptButton = this.btnGetBirthDetails;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
@@ -419,9 +582,11 @@
             this.Controls.Add(this.tabPageOne);
             this.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form1";
+            this.Name = "frmAllTabPages";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DateTime Calculator";
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
             this.tabPageTwo.ResumeLayout(false);
             this.tabPageTwo.PerformLayout();
             this.tabPage1.ResumeLayout(false);
@@ -463,6 +628,19 @@
         private System.Windows.Forms.MaskedTextBox maskedTextBox1;
         private System.Windows.Forms.TabControl tabPageOne;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.DateTimePicker dtpTime2;
+        private System.Windows.Forms.DateTimePicker dtpTime1;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label labDiffBetweenTimesSecs;
+        private System.Windows.Forms.Label labDiffBetweenTimesMin;
+        private System.Windows.Forms.Label labDiffBetweenTimesHour;
+        private System.Windows.Forms.Button btnStartCalcDiffInTimes;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label19;
     }
 }
 

@@ -7,8 +7,8 @@ using System.Windows.Forms;
 
 namespace DateTime_Calculator
 {
-    // Tab page 2 persentation logic ///  
-    public partial class Form1 : Form
+    // Tab page 2 prsentation logic ///  
+    public partial class frmAllTabPages : Form
     {
 
         private void tabPage2_Click(object sender, EventArgs e)
